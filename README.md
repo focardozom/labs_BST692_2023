@@ -1,4 +1,4 @@
-# Titanic Dataset Labs
+# Titanic Dataset Labs for shiny
 
 This repository contains labs related to the Titanic dataset. Here, we use Shiny to create web applications to interact with and visualize this dataset.
 
