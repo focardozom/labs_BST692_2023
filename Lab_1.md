@@ -10,14 +10,14 @@ Build a shiny::UI (User Interface).
 
 **Step 1**
 
-Clone this GitHub repository 
+Clone this GitHub repository:
 
 https://github.com/focardozom/labs_BST692_2023
 
 **Step 2**
 
-Create a `.md `file (go to file > New file > `Markdown File`).  
-**Be aware it is a Markdown file, not an Rmarkdown file.**
+Create a `.md` file (go to File > New File > Markdown File).  
+**Note that it is a Markdown file, not an Rmarkdown file.**
 
 **Step 3**
 
@@ -33,15 +33,15 @@ Your task is to reproduce the webpage in your markdown file (page1.md).
 
 For example:
 
-This code: `# Titanic: Who Survived?` 
+This code: `# Titanic: Tragedy in the Atlantic` 
 
-Produce this output:
+Produces this output:
 
-# Titanic: Who Survived?
+# Titanic: Tragedy in the Atlantic
 
 And this code: `* Titanic: Tragedy in the Atlantic` 
 
-Produce this output:
+Produces this output:
 
 * Titanic: Tragedy in the Atlantic
 
@@ -53,27 +53,27 @@ Save the `.md` file.
 
 **Step 6**
 
-In your project, create a new R script file (go to file > New file > `R script`)
+In your project, create a new R script file (go to File > New File > R Script).
 
-Type in the new file the following snippet `shinyap` (Remember to press tab before you finish typing to call the snippet). 
+Type the following snippet `shinyap` in the new file (Remember to press the tab key before you finish typing to call the snippet). 
 
 **Step 7**
 
-Select everything and run your code (You can use `command + a`; then ` command + return` to look like a pro).
+Select everything and run your code. You can use `Command + a`, then `Command + Return` to execute it like a pro.
 
 **Step 8**
 
-**Congratulations**, you created a shiny app. 
+**Congratulations**, you have created a Shiny app. 
 
 Save your file and name it `app`. 
 
 **Step 9**
 
-In your `.app`, include the `.md` file in the UI object (everything inside the `fluidPage()` will be part of your user interface). The `includeMarkdown()` function will read your `.md`, and deployed it (for example `includeMarkdown("???")`)
+In your `.app`, include the `.md` file in the UI object (everything inside the `fluidPage()` will be part of your user interface). The `includeMarkdown()` function will read your `.md` and deploy it. For example, use `includeMarkdown("???")`.
 
 **Step 10** 
 
-Click `Run app` bottom to see magic. 
+Click the `Run app` button to see the magic unfold.
 
 
 
