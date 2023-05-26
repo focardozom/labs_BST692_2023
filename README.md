@@ -1,13 +1,34 @@
-# Titanic Dataset Labs for Shiny
 
-This repository contains labs related to the Titanic dataset. Here, we use Shiny to create web applications to interact with and visualize this dataset.
+# Labs Shiny: Titanic Dataset
 
-## Lab Overview
+Welcome to the Labs repository, where we use the fascinating Titanic dataset to delve into a rich variety of data analysis techniques. This repository includes step-by-step lab materials for mastering Shiny in the context of real-world data.
 
-### Lab 1 - Building a Shiny User Interface
+## Repository Structure
 
-The objective of the first lab is to build a Shiny user interface (UI) for our project. This includes creating a markdown file that reproduces a given webpage and incorporating it into a Shiny app.
+The repository includes the following files:
 
-### Lab 2 - Importing Data, Creating a Table, and a Reactable in Shiny
+- **Lab 1:** An introduction to creating a User Interface using the shiny::UI in R. This lab focuses on basic aspects of UI design and deployment.
+- **Lab 2:** This lab guides you on how to import data, create a table, and establish reactable objects in Shiny. It uses the Titanic dataset to demonstrate these techniques.
+- **Lab 3:** Here, we explore adding reactivity to your Shiny app, allowing user interaction to control aspects of data visualization and manipulation.
+- **Lab 4:** Lab 4 extends upon previous lessons by integrating reactive objects, creating visualizations, and building predictive models.
+- **Lab 5:** In the final lab, we apply tidymodels to perform classification tasks, teaching you how to develop predictive models with the Titanic dataset.
 
-In the second lab, we import the Titanic dataset, create a table, and a reactable in Shiny. The Titanic dataset is converted into a format that has one record per person. The lab demonstrates the creation of a table and a reactable in the Shiny app to interactively display this dataset.
+## Getting Started
+
+To begin, clone the repository to your local machine, or fork it to your own GitHub account.
+
+## Requirements
+
+All labs are implemented in R. You will need a recent version of R, and the following packages are required:
+
+- shiny
+- tidyverse
+- tidymodels
+- scales
+- broom
+- reactable
+- janitor
+
+## Contributions
+
+Feel free to contribute to this repository by submitting pull requests. Please ensure that your code follows the tidyverse style guide.
