@@ -32,3 +32,6 @@ All labs are implemented in R. You will need a recent version of R, and the foll
 ## Contributions
 
 Feel free to contribute to this repository by submitting pull requests. Please ensure that your code follows the tidyverse style guide.
+
+## License
+The material in this GitHub repository is subject to copyright under the [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, which promotes easy reuse of the content. We strongly encourage you to make use of and modify the material according to your teaching needs. Feel free to adapt it as you see fit!
